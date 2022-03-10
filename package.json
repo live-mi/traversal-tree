@@ -7,7 +7,10 @@
     "analysis-cli": "analysis-cli.js"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "statistics": "node analysis-cli.js statistics --url",
+    "prepare": "husky install"
   },
   "keywords": [],
   "author": "",
@@ -26,6 +29,7 @@
     "@types/jest": "^27.0.2",
     "@types/node": "^16.11.0",
     "@types/node-fetch": "^2.5.12",
+    "husky": "^7.0.0",
     "jest": "^27.2.5"
   }
 }

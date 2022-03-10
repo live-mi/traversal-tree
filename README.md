@@ -1,8 +1,9 @@
-### Running
+### Guide to run
 
-git clone git@github.com:live-mi/traversal-tree.git
+1. git clone git@github.com:live-mi/traversal-tree.git
 
-cd traversal-tree
+2. cd traversal-tree
 
-node analysis-cli.js statistics --url https://google.com
-
+3. node analysis-cli.js statistics --url https://google.com
+OR
+npm run statistics --url https://google.com
